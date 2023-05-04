@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "workers_tasks (debug mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug"
+        },
+        {
+            "name": "workers_tasks (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "workers_tasks (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "Flutter (RMX2020)",
+            "program": "lib/main.dart",
+            "deviceId": "BUQODM4TFUAEAMSK",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}

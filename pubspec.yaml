@@ -1,0 +1,38 @@
+name: workers_tasks
+description: A new Flutter project.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.3 <3.0.0"
+
+dependencies:
+  cached_network_image: ^3.2.3
+  cloud_firestore: ^4.4.4
+  cupertino_icons: ^1.0.2
+  dartz: ^0.10.1
+  firebase_auth: ^4.2.10
+  firebase_core: ^2.7.1
+  firebase_storage: ^11.0.15
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.2
+  fluttertoast: ^8.2.1
+  font_awesome_flutter: ^10.4.0
+  image_cropper: ^3.0.1
+  image_picker: ^0.8.7
+  intl: ^0.17.0
+  url_launcher: ^6.1.10
+  uuid: ^3.0.7
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
